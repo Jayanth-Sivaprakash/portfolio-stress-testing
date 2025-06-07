@@ -62,7 +62,25 @@ Key Features
     *   **Scenario loss comparisons**
         
     *   **Performance metrics comparison**
-        
+
+  PortFolio
+  ---------
+  
+  | Instrument                  | Portfolio Weight (%) | Baseline Return (%) | Volatility (%) | Beta |
+|-----------------------------|---------------------|--------------------|----------------|------|
+| T-Bills                     | 10.5                | 6.9                | 0.5            | 0.0  |
+| Certificates of Deposit (CDs) | 14.0                | 6.1                | 0.8            | 0.0  |
+| Commercial Paper            | 21.0                | 8.3                | 1.2            | 0.05 |
+| Money Market Funds          | 10.5                | 6.4                | 0.7            | 0.0  |
+| Savings Accounts            | 3.5                 | 4.4                | 0.3            | 0.0  |
+| Green Bonds                 | 10.5                | 7.9                | 1.5            | 0.1  |
+| Corporate Bonds             | 9.75                | 8.3                | 2.0            | 0.15 |
+| Inflation Bonds             | 2.25                | 6.6                | 1.8            | 0.05 |
+| Municipal Bonds             | 3.0                 | 6.9                | 1.9            | 0.1  |
+| Equity Funds                | 9.75                | 13.5               | 15.0           | 1.3  |
+| REITs                       | 4.5                 | 9.6                | 10.0           | 0.8  |
+| Gold                        | 0.75                | 7.5                | 8.0            | -0.2 |
+
 
 Correlation Matrix & Assumptions
 --------------------------------
@@ -77,7 +95,16 @@ Asset ClassExample Correlation BehaviorT-Bills, CDs, Money Market**Highly correl
 
 ### Sample Matrix Excerpt:
 
-InstrumentPortfolio Weight (%)Baseline Return (%)Volatility (%)BetaT-Bills10.56.90.50.0Certificates of Deposit (CDs)14.06.10.80.0Commercial Paper21.08.31.20.05Money Market Funds10.56.40.70.0Savings Accounts3.54.40.30.0Green Bonds10.57.91.50.1Corporate Bonds9.758.32.00.15Inflation Bonds2.256.61.80.05Municipal Bonds3.06.91.90.1Equity Funds9.7513.515.01.3REITs4.59.610.00.8Gold0.757.58.0-0.2
+| Instrument →  | T-Bills | CDs   | Comm. Paper | MM Funds | Savings | Green Bonds | Corp. Bonds | Infl. Bonds | Mun. Bonds | Equity Funds | REITs | Gold  |
+|---------------|---------|-------|-------------|----------|---------|-------------|-------------|-------------|------------|--------------|-------|-------|
+| T-Bills       | 1.00    | 0.80  | 0.70        | 0.90     | 0.50    | 0.60        | 0.40        | 0.30        | 0.40       | -0.30        | -0.20 | 0.10  |
+| CDs           | 0.80    | 1.00  | 0.80        | 0.80     | 0.40    | 0.50        | 0.30        | 0.20        | 0.30       | -0.30        | -0.20 | 0.10  |
+| Comm. Paper   | 0.70    | 0.80  | 1.00        | 0.70     | 0.30    | 0.60        | 0.40        | 0.20        | 0.40       | -0.30        | -0.20 | 0.10  |
+| MM Funds      | 0.90    | 0.80  | 0.70        | 1.00     | 0.50    | 0.60        | 0.40        | 0.30        | 0.40       | -0.30        | -0.20 | 0.10  |
+| Savings       | 0.50    | 0.40  | 0.30        | 0.50     | 1.00    | 0.30        | 0.20        | 0.10        | 0.20       | -0.10        | -0.10 | 0.00  |
+| Green Bonds   | 0.60    | 0.50  | 0.60        | 0.60     | 0.30    | 1.00        | 0.70        | 0.50        | 0.70       | -0.30        | -0.20 | 0.20  |
+| Corp. Bonds   | 0.40    | 0.30  | 0.40        | 0.40     | 0.20    | 0.70        | 1.00        | 0.60        | 0.80       | -0.30        |       |       |
+
 
 ### Justification of Assumptions
 
