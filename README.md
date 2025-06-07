@@ -77,7 +77,7 @@ Asset ClassExample Correlation BehaviorT-Bills, CDs, Money Market**Highly correl
 
 ### Sample Matrix Excerpt:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   plaintextCopyEdit    T-Bills  CDs  Comm.Paper  MM.Funds  ...  REITs  Gold  T-Bills     1.0   0.8        0.7       0.9       ...  -0.2    0.1  CDs         0.8   1.0        0.8       0.8       ...  -0.2    0.1  Comm.Paper  0.7   0.8        1.0       0.7       ...  -0.2    0.1  ...  Equity Funds -0.3 -0.3      -0.3       -0.3      ...   1.0    0.8  REITs       -0.2 -0.2      -0.2       -0.2      ...   0.8    1.0  Gold         0.1  0.1       0.1        0.1      ...  -0.4    1.0   `
+InstrumentPortfolio Weight (%)Baseline Return (%)Volatility (%)BetaT-Bills10.56.90.50.0Certificates of Deposit (CDs)14.06.10.80.0Commercial Paper21.08.31.20.05Money Market Funds10.56.40.70.0Savings Accounts3.54.40.30.0Green Bonds10.57.91.50.1Corporate Bonds9.758.32.00.15Inflation Bonds2.256.61.80.05Municipal Bonds3.06.91.90.1Equity Funds9.7513.515.01.3REITs4.59.610.00.8Gold0.757.58.0-0.2
 
 ### Justification of Assumptions
 
