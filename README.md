@@ -63,7 +63,7 @@ Key Features
         
     *   **Performance metrics comparison**
 
-  PortFolio
+  Portfolio
   ---------
   
   | Instrument                  | Portfolio Weight (%) | Baseline Return (%) | Volatility (%) | Beta |
