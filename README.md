@@ -188,3 +188,8 @@ Contact
 Thank you for reviewing this project!**Open to feedback and collaboration opportunities.** 🚀
 
 ![2008 Crisis Stress & Recovery](output_images/2008_global_financial_crisis_stress_recovery.png)
+
+![2022 Inflation Spike Recovery](output_images/2022_inflation_spike_recovery.png)
+
+![RBI Rate Hike Loss Contribution](output_images/2013_rbi_rate_hike_loss_contribution.png)
+
