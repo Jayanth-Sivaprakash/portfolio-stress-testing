@@ -191,5 +191,5 @@ Thank you for reviewing this project!**Open to feedback and collaboration opport
 
 ![2022 Inflation Spike Recovery](output_images/2022_inflation_spike_recovery.png)
 
-![RBI Rate Hike Loss Contribution](output_images/2013_rbi_rate_hike_recovery.png)
+
 
