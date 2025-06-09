@@ -186,3 +186,5 @@ Contact
 📧 jayanthsivaprakash12@gmail.com
 
 Thank you for reviewing this project!**Open to feedback and collaboration opportunities.** 🚀
+
+![2008 Crisis Stress & Recovery](output_images/2008_global_financial_crisis_stress_recovery.png)
